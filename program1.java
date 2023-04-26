@@ -10,14 +10,14 @@ class Demo{
 			arr[i]=Integer.parseInt(br.readLine());
 		}
 		for(int i=0;i<arr.length;i++){
-			int cnt =0;
+			int count =0;
 			int temp =arr[i];
 
 			while(temp!=0){
-				cnt++;
+				count++;
 				temp=temp/10;
 		}
-		System.out.println("Count of digit in number"+arr[i]+"="+cnt);
+		System.out.println("Count of digit in number"+arr[i]+"="+count);
 
 		}
 	}
